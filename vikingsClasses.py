@@ -1,7 +1,21 @@
 import random
 
-# Soldier
+#Adri change 
+def give_compliment():
+    compliments = [
+        "You're a rainbow of intelligence and kindness!",
+        "Your smile is contagious! Like hepC",
+        "You're more fun than a ball pit full of puppies!",
+        "Best coding skills ever!",
+        "You're daa best!",
+        "Mud runs make you happy as Bonnie is when digging holes!"
+    ]
+    
+    return random.choice(compliments)
 
+print(give_compliment())
+
+# Soldier
 
 class Soldier:
     def __init__(self, health, strength):
